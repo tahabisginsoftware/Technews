@@ -2,9 +2,9 @@
 // ©TahaBisginSoftware, all rights reserved.
 
 import React, {Component} from 'react';
-import {RefreshControl, StyleSheet, View, Text, Image, ScrollView, Linking, TouchableOpacity, useColorScheme} from 'react-native';
+import {RefreshControl, StyleSheet, View, Text, Image, ScrollView, Linking, TouchableOpacity} from 'react-native';
 import axios from 'axios';
-import {Card, Title, Paragraph} from 'react-native-paper';
+import {Card, Title} from 'react-native-paper';
 
 import Header from '../../components/AppBar';
 
@@ -18,7 +18,7 @@ export default class Home extends Component {
     };
     getArticles() {
         axios
-            .get( "https://newsapi.org/v2/everything?q=bitcoin&language=en&sortBy=publishedAt&apiKey=4799b1090bb449ab874373fb78807398")
+            .get( "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=4799b1090bb449ab874373fb78807398")
             .then(response => 
                 response.data.articles.map(article =>({
                     date: `${article.publishedAt}`,
@@ -49,7 +49,6 @@ export default class Home extends Component {
             refreshing: true,
         }, () => {
             this.getArticles();
-            console.log("Refresh loaded!");
         })
         
     }
@@ -64,9 +63,7 @@ export default class Home extends Component {
                     <RefreshControl 
                     refreshing={this.state.refreshing}
                     onRefresh={this.handleRefresh}
-                    />
-                }
-                
+                    />}
                 >
                     {!isLoading ? (
                         articles.map(article => {

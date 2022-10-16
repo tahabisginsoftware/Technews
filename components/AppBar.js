@@ -5,8 +5,8 @@ import { Appbar } from 'react-native-paper';
 
 const Header = () => {
     return(
-        <Appbar.Header style = {{marginTop:0, backgroundColor:'#364156'}}>
-            <Appbar.Content title="Home"/>
+        <Appbar.Header style = {{marginTop:25, backgroundColor:'#364156'}}>
+            <Appbar.Content title="News"/>
         </Appbar.Header>
     )
 }
