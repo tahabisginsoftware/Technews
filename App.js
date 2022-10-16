@@ -1,11 +1,16 @@
+// Made by Taha Bisgin.
+// ©TahaBisginSoftware, all rights reserved.
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+import Home from './screens/Home';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello World! This is BTC news.</Text>
-      <StatusBar style="auto" />
+      <Home />
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -14,7 +19,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
