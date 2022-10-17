@@ -32,8 +32,8 @@ To use the News API tool, you first need to sign up for an new account and get a
 Download Technews for free! https://file.io/gjtgU2iQxAWZ (for android)
 
 # Screenshots
-<img align="left" alt="news1" src="https://i.imgur.com/E2Yi9p0.png" width="300"/>
-<img align="left" alt="news2" src="https://i.ibb.co/k4DJVgF/two-news.png" width="300"/>
+<img align="left" alt="news1" src="https://i.imgur.com/I1azCgE.png" width="300"/>
+<img align="left" alt="news2" src="https://i.imgur.com/yVnwOfE.png" width="300"/>
 <br>
 <br>
 <br>
