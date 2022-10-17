@@ -1,9 +1,12 @@
 // Made by Taha Bisgin.
 // ©TahaBisginSoftware, all rights reserved.
+
+//import the needed packages
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 
+//import the Homescreen Component (index.js)
 import Home from './screens/Home';
 
 export default function App() {
@@ -15,6 +18,7 @@ export default function App() {
   );
 }
 
+//styles component for the design
 const styles = StyleSheet.create({
   container: {
     flex: 1,

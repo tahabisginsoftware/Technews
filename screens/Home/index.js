@@ -1,21 +1,27 @@
 // Made by Taha Bisgin.
 // ©TahaBisginSoftware, all rights reserved.
 
+//import the needed packages
 import React, {Component} from 'react';
 import {RefreshControl, StyleSheet, View, Text, Image, ScrollView, Linking, TouchableOpacity} from 'react-native';
 import axios from 'axios';
 import {Card, Title} from 'react-native-paper';
 
+//import the Header component from AppBar.js 
 import Header from '../../components/AppBar';
 
 export default class Home extends Component {
 
+    //state of the different variables, when the app starts
     state = {
         articles:[],
         isLoading: true,
         errors: null,
         refreshing: false,
     };
+
+    //get the articles from newsapi with axios.get and map the articles after response
+    //I just used date,title,url,urlToImage and author parameters.
     getArticles() {
         axios
             .get( "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=4799b1090bb449ab874373fb78807398")
@@ -30,6 +36,7 @@ export default class Home extends Component {
                     content: `${article.content}`,
                 }))
             )
+            // set loading and refreshing to false, after articles are loaded
             .then(articles => {
                 this.setState({
                     articles,
@@ -37,13 +44,15 @@ export default class Home extends Component {
                     refreshing: false,
                 });
             })
+            // if there is an error, catch it and set loading and refreshing to false
             .catch(error => this.setState({error, isLoading: false, refreshing: false}));
     }
 
     componentDidMount(){
         this.getArticles();
     }
-
+    
+    //for the pull to refresh function
     handleRefresh = () =>{
         this.setState({
             refreshing: true,
@@ -53,6 +62,7 @@ export default class Home extends Component {
         
     }
 
+    //render to screen
     render(){
         const{isLoading, articles} = this.state;
         return(
@@ -91,6 +101,7 @@ export default class Home extends Component {
     }
 }
 
+//styles component for the design
 const styles = StyleSheet.create({
     container: {
       flex: 1,
