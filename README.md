@@ -29,7 +29,7 @@ To use the News API tool, you first need to sign up for an new account and get a
 4. Now go to the Documentation https://newsapi.org/docs and implement the API key in `index.js`
 
 # Download
-Download Technews for free! https://file.io/gjtgU2iQxAWZ
+Download Technews for free! https://file.io/gjtgU2iQxAWZ (for android)
 
 # Screenshots
 <img align="left" alt="news1" src="https://i.imgur.com/E2Yi9p0.png" width="300"/>
