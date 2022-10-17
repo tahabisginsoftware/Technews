@@ -21,5 +21,5 @@ Alternatively, you can start both the serever and the app up by: `npm run androi
 Finished
 
 # Screenshots
-<img align="left" alt="1welcome" src="https://imgur.com/E2Yi9p0" width="300"/>
+<img align="left" alt="1welcome" src="https://i.imgur.com/E2Yi9p0.png" width="300"/>
 <img align="left" alt="1welcome" src="https://i.ibb.co/k4DJVgF/two-news.png" width="300"/>
