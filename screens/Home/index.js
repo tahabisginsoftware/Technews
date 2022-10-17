@@ -24,7 +24,8 @@ export default class Home extends Component {
     //I just used date,title,url,urlToImage and author parameters.
     getArticles() {
         axios
-            .get( "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=4799b1090bb449ab874373fb78807398")
+        // IMPORTANT: PUT YOUR APIKEY AT THE END OF THE URL UNDER apiKey=APIKEY (view README.MD for more information!)
+            .get( "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=APIKEY")
             .then(response => 
                 response.data.articles.map(article =>({
                     date: `${article.publishedAt}`,
