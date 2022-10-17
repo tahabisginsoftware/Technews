@@ -1,3 +1,3 @@
-# newsApp
+# Technews
 
-A news app made with react-native.
+A news app about tech made with react-native.
