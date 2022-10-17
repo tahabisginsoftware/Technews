@@ -5,9 +5,9 @@ A news app about tech made with react-native.
 # Setup
 
 Clone the repository
-Via HTTPS: git clone https://github.com/nklmantey/react-native-travel-app.git
+Via HTTPS: `git clone https://github.com/tahabisginsoftware/technews.git`
 
-Via SSH: git clone git@github.com:nklmantey/react-native-travel-app.git
+Via SSH: `git clone git@github.com:nklmantey/technews.git`
 
 # Steps
 
