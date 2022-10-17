@@ -1,4 +1,4 @@
-# Technews
+![Technews](https://i.imgur.com/CgD8m1l.png "Technews")
 
 A news app about crypto and tech made with react-native. <br>
 Made by Taha Bisgin. <br>
@@ -17,7 +17,7 @@ Start server: `npm start` / `yarn start`
 
 Run app: `npx react-native run-android` / `npx react-native run-ios`
 
-Alternatively, you can start both the serever and the app up by: `npm run android` / `npm run ios`
+Alternatively, you can start both the server and the app up by: `npm run android` / `npm run ios`
 
 # News API
 
