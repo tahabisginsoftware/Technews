@@ -1,6 +1,6 @@
 # Technews
 
-A news app about tech made with react-native. <br>
+A news app about crypto and tech made with react-native. <br>
 Made by Taha Bisgin. <br>
 https://tahabisginsoftware.com
 
