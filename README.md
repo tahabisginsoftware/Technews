@@ -9,7 +9,7 @@ https://tahabisginsoftware.com
 Clone the repository
 Via HTTPS: `git clone https://github.com/tahabisginsoftware/technews.git`
 
-Via SSH: `git clone git@github.com:nklmantey/technews.git`
+Via SSH: `git clone git@github.com:tahabisginsoftware/technews.git`
 
 iOS & Android package installation: `npm install` / `yarn add`
 
