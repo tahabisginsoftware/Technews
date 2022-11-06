@@ -33,7 +33,7 @@ Download Technews [here!](https://drive.google.com/file/d/1hW_a-30vZccNOTjC7MGRn
 
 # Screenshots
 <img align="left" alt="news1" src="https://i.imgur.com/E2Yi9p0.png" width="300"/>
-<img align="left" alt="news2" src="https://i.ibb.co/k4DJVgF/two-news.png" width="300"/>
+<img align="left" alt="news2" src="https://i.imgur.com/YPqOxAH.png" width="300"/>
 <br>
 <br>
 <br>
