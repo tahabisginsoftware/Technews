@@ -9,7 +9,7 @@ https://tahabisginsoftware.com
 Clone the repository
 Via HTTPS: `git clone https://github.com/tahabisginsoftware/technews.git`
 
-Via SSH: `git clone git@github.com:nklmantey/technews.git`
+Via SSH: `git clone git@github.com:tahabisginsoftware/technews.git`
 
 iOS & Android package installation: `npm install` / `yarn add`
 
@@ -33,7 +33,7 @@ Download Technews [here!](https://github.com/tahabisginsoftware/Technews/release
 
 # Screenshots
 <img align="left" alt="news1" src="https://i.imgur.com/E2Yi9p0.png" width="300"/>
-<img align="left" alt="news2" src="https://i.ibb.co/k4DJVgF/two-news.png" width="300"/>
+<img align="left" alt="news2" src="https://i.imgur.com/YPqOxAH.png" width="300"/>
 <br>
 <br>
 <br>
