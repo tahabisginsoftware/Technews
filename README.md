@@ -2,7 +2,7 @@
 
 A news app about tech made with react-native. <br>
 Made by Taha Bisgin. <br>
-https://tahabisginsoftware.com
+https://tbsvsn.com
 
 # Setup
 
@@ -44,4 +44,4 @@ Download Technews [here!](https://github.com/tahabisginsoftware/Technews/release
 <br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-©TahaBisginSoftware, all rights reserved.
+©Taha Bisgin, all rights reserved.
